@@ -1,7 +1,7 @@
-﻿<UserControl x:Class="Day01.Views.Day1View"
+﻿<UserControl x:Class="Day02.Views.Day2View"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Day01.Views"
+             xmlns:local="clr-namespace:Day02.Views"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              mc:Ignorable="d" 
@@ -23,7 +23,7 @@
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Margin="20,0,0,0" Grid.Column="0">Result: </TextBlock>
+            <TextBlock Margin="20,0,0,0" Grid.Column="0">Result:</TextBlock>
             <TextBlock Grid.Column="1" Text="{Binding Result1}"/>
         </Grid>
         <Grid Grid.Row="1" Grid.Column="1">
@@ -31,7 +31,7 @@
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Margin="20,0,0,0" Grid.Column="0">Result: </TextBlock>
+            <TextBlock Margin="20,0,0,0" Grid.Column="0">Result:</TextBlock>
             <TextBlock Grid.Column="1" Text="{Binding Result2}"/>
         </Grid>
     </Grid>

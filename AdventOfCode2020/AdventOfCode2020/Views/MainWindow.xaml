@@ -6,5 +6,6 @@
         Title="{Binding Title}" Height="350" Width="525" >
     <StackPanel Orientation="Vertical">
         <ContentControl prism:RegionManager.RegionName="Day1Region" />
+        <ContentControl prism:RegionManager.RegionName="Day2Region" />
     </StackPanel>
 </Window>
