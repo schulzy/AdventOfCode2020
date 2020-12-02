@@ -4,8 +4,11 @@
         xmlns:prism="http://prismlibrary.com/"
         prism:ViewModelLocator.AutoWireViewModel="True"
         Title="{Binding Title}" Height="350" Width="525" >
-    <StackPanel Orientation="Vertical">
-        <ContentControl prism:RegionManager.RegionName="Day1Region" />
-        <ContentControl prism:RegionManager.RegionName="Day2Region" />
-    </StackPanel>
+    <ScrollViewer HorizontalScrollBarVisibility="Auto">
+        <StackPanel Orientation="Vertical">
+            <ContentControl prism:RegionManager.RegionName="Day1Region" />
+            <ContentControl prism:RegionManager.RegionName="Day2Region" />
+            <ContentControl prism:RegionManager.RegionName="Day3Region" />
+        </StackPanel>
+    </ScrollViewer>
 </Window>

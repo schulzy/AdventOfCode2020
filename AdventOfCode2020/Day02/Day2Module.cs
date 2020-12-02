@@ -1,7 +1,5 @@
-﻿using Day02.Views;
-using Prism.Ioc;
+﻿using Prism.Ioc;
 using Prism.Modularity;
-using Prism.Regions;
 
 namespace Day02
 {

@@ -1,7 +1,6 @@
 ﻿using Day01.BL;
 using Prism.Commands;
 using Prism.Mvvm;
-using System;
 
 namespace Day01.ViewModels
 {

@@ -1,9 +1,11 @@
-﻿using Prism.Ioc;
+﻿using Day03.Views;
+using Prism.Ioc;
 using Prism.Modularity;
+using Prism.Regions;
 
-namespace Day01
+namespace Day03
 {
-    public class Day01Module : IModule
+    public class Day03Module : IModule
     {
         public void OnInitialized(IContainerProvider containerProvider)
         {

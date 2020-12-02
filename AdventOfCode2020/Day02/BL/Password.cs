@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Day02.BL
+﻿namespace Day02.BL
 {
     class Password
     {

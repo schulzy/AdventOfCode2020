@@ -1,10 +1,14 @@
-﻿using Day02.BL;
-using Prism.Commands;
+﻿using Prism.Commands;
 using Prism.Mvvm;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Day02.ViewModels
+namespace Day03.ViewModels
 {
-    public class Day2ViewModel : BindableBase
+    public class Day3ViewModel : BindableBase
     {
         private string _message;
         public string Message
@@ -12,6 +16,7 @@ namespace Day02.ViewModels
             get { return _message; }
             set { SetProperty(ref _message, value); }
         }
+
         private string _result1;
         private string _result2;
 
@@ -29,25 +34,21 @@ namespace Day02.ViewModels
 
         private DelegateCommand _first;
         public DelegateCommand First =>
-            _first ?? (_first = new DelegateCommand(FirstDay2));
+            _first ?? (_first = new DelegateCommand(FirstDay3));
 
         private DelegateCommand _second;
         public DelegateCommand Second =>
-            _second ?? (_second = new DelegateCommand(SecondDay2));
+            _second ?? (_second = new DelegateCommand(SecondDay3));
 
-        private void SecondDay2()
+        private void SecondDay3()
         {
-            var passwordManager = new PasswordManager();
-            Result2 = passwordManager.ValidStrictPassword.ToString();
         }
 
-        void FirstDay2()
+        void FirstDay3()
         {
-            var passwordManager = new PasswordManager();
-            Result1 = passwordManager.ValidPassword.ToString();
         }
 
-        public Day2ViewModel()
+        public Day3ViewModel()
         {
             Message = "View A from your Prism Module";
             Result1 = "Waiting for the result";
