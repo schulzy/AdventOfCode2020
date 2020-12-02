@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode2020", "AdventOfCode2020\AdventOfCode2020.csproj", "{70997AD5-D8A7-4670-9A12-2F3610B0236F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode2020", "AdventOfCode2020\AdventOfCode2020.csproj", "{70997AD5-D8A7-4670-9A12-2F3610B0236F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01", "Day01\Day01.csproj", "{77814A20-CCED-4793-B973-D72D62267458}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day01", "Day01\Day01.csproj", "{77814A20-CCED-4793-B973-D72D62267458}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02", "Day02\Day02.csproj", "{2E04E941-2C0D-43DD-9534-9FB06EAE6EE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day02", "Day02\Day02.csproj", "{2E04E941-2C0D-43DD-9534-9FB06EAE6EE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,8 +35,8 @@ Global
 		{77814A20-CCED-4793-B973-D72D62267458}.Release|x64.Build.0 = Release|x64
 		{2E04E941-2C0D-43DD-9534-9FB06EAE6EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E04E941-2C0D-43DD-9534-9FB06EAE6EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E04E941-2C0D-43DD-9534-9FB06EAE6EE5}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{2E04E941-2C0D-43DD-9534-9FB06EAE6EE5}.Debug|x64.Build.0 = Debug|Any CPU
+		{2E04E941-2C0D-43DD-9534-9FB06EAE6EE5}.Debug|x64.ActiveCfg = Debug|x64
+		{2E04E941-2C0D-43DD-9534-9FB06EAE6EE5}.Debug|x64.Build.0 = Debug|x64
 		{2E04E941-2C0D-43DD-9534-9FB06EAE6EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E04E941-2C0D-43DD-9534-9FB06EAE6EE5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2E04E941-2C0D-43DD-9534-9FB06EAE6EE5}.Release|x64.ActiveCfg = Release|Any CPU
