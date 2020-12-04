@@ -1,4 +1,5 @@
-﻿using Prism.Commands;
+﻿using Day03.BL;
+using Prism.Commands;
 using Prism.Mvvm;
 using System;
 using System.Collections.Generic;
@@ -42,10 +43,20 @@ namespace Day03.ViewModels
 
         private void SecondDay3()
         {
+            FieldManager fieldManager = new FieldManager();
+            long product = fieldManager.GetArtifacts(1, 1)[Artifact.Tree] * 
+                fieldManager.GetArtifacts(3, 1)[Artifact.Tree] *
+                fieldManager.GetArtifacts(5, 1)[Artifact.Tree] *
+                fieldManager.GetArtifacts(7, 1)[Artifact.Tree] *
+                fieldManager.GetArtifacts(1, 2)[Artifact.Tree];
+            Result2 = product.ToString();
         }
 
-        void FirstDay3()
+        private void FirstDay3()
         {
+            FieldManager fieldManager = new FieldManager();
+            var result = fieldManager.GetArtifacts(3, 1);
+            Result1 = result[Artifact.Tree].ToString(); ;
         }
 
         public Day3ViewModel()
