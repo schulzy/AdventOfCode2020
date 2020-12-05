@@ -6,9 +6,10 @@
         Title="{Binding Title}" Height="350" Width="525" >
     <ScrollViewer HorizontalScrollBarVisibility="Auto">
         <StackPanel Orientation="Vertical">
-            <ContentControl prism:RegionManager.RegionName="Day1Region" />
-            <ContentControl prism:RegionManager.RegionName="Day2Region" />
-            <ContentControl prism:RegionManager.RegionName="Day3Region" />
+            <ContentControl prism:RegionManager.RegionName="Day1Region" Visibility="Collapsed" />
+            <ContentControl prism:RegionManager.RegionName="Day2Region" Visibility="Collapsed"/>
+            <ContentControl prism:RegionManager.RegionName="Day3Region" Visibility="Collapsed"/>
+            <ContentControl prism:RegionManager.RegionName="Day4Region" />
         </StackPanel>
     </ScrollViewer>
 </Window>
