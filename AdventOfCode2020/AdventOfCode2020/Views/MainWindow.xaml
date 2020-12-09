@@ -10,8 +10,8 @@
             <ContentControl prism:RegionManager.RegionName="Day2Region" Visibility="Collapsed"/>
             <ContentControl prism:RegionManager.RegionName="Day3Region" Visibility="Collapsed"/>
             <ContentControl prism:RegionManager.RegionName="Day4Region" Visibility="Collapsed"/>
-            <ContentControl prism:RegionManager.RegionName="Day5Region" />
-            <ContentControl prism:RegionManager.RegionName="Day6Region" Visibility="Collapsed"/>
+            <ContentControl prism:RegionManager.RegionName="Day5Region" Visibility="Collapsed"/>
+            <ContentControl prism:RegionManager.RegionName="Day6Region" />
         </StackPanel>
     </ScrollViewer>
 </Window>

@@ -1,4 +1,5 @@
-﻿using Prism.Commands;
+﻿using Day06.BL;
+using Prism.Commands;
 using Prism.Mvvm;
 using System;
 using System.Collections.Generic;
@@ -42,12 +43,16 @@ namespace Day06.ViewModels
 
         private void SecondDay6()
         {
-           
+            var groupManager = new GroupManager();
+            groupManager.Init();
+            Result2 = groupManager.GetAllCommonYesAnswerSum().ToString();
         }
 
         private void FirstDay6()
         {
-            
+            var groupManager = new GroupManager();
+            groupManager.Init();
+            Result1 = groupManager.GetAllAnswerSum().ToString();
         }
 
         public Day6ViewModel()
