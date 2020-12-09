@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Day04.BL
+﻿namespace Day04.BL
 {
     internal class Passport
     {

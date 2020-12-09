@@ -29,6 +29,8 @@ namespace AdventOfCode2020
             regionManager.RegisterViewWithRegion("Day2Region", typeof(Day02.Views.Day2View));
             regionManager.RegisterViewWithRegion("Day3Region", typeof(Day03.Views.Day3View));
             regionManager.RegisterViewWithRegion("Day4Region", typeof(Day04.Views.Day4View));
+            regionManager.RegisterViewWithRegion("Day5Region", typeof(Day05.Views.Day5View));
+            regionManager.RegisterViewWithRegion("Day6Region", typeof(Day06.Views.Day6View));
         }
     }
 }
