@@ -1,10 +1,6 @@
-﻿using Prism.Commands;
+﻿using Day07.BL;
+using Prism.Commands;
 using Prism.Mvvm;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Day07.ViewModels
 {
@@ -42,10 +38,16 @@ namespace Day07.ViewModels
 
         private void SecondDay7()
         {
+            BagManager manager = new BagManager();
+            manager.Init();
+            Result2 = manager.Calculate("shiny gold").ToString();
         }
 
         private void FirstDay7()
         {
+            BagManager manager = new BagManager();
+            manager.Init();
+            Result1 = manager.CountOfBags("shiny gold").ToString();
         }
 
         public Day7ViewModel()

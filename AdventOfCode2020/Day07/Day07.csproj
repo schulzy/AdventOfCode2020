@@ -6,10 +6,18 @@
     <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Data.txt" />
+    <None Remove="Data07.txt" />
+    <None Remove="TestData07.txt" />
+    <None Remove="TestData07_01.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Data.txt">
+    <Content Include="Data07.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData07.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData07_01.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
