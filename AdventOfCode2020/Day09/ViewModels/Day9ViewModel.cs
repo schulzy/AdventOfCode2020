@@ -1,10 +1,6 @@
-﻿using Prism.Commands;
+﻿using Day09.BL;
+using Prism.Commands;
 using Prism.Mvvm;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Day09.ViewModels
 {
@@ -42,10 +38,16 @@ namespace Day09.ViewModels
 
         private void SecondDay9()
         {
+            var encoder = new Encoder();
+            encoder.Init(25);
+            Result2 = encoder.GetContiguousMinMaxSum().ToString();
         }
 
         private void FirstDay9()
         {
+            var encoder = new Encoder();
+            encoder.Init(25);
+            Result1 =  encoder.GetInvalidCode().ToString();
         }
 
         public Day9ViewModel()
