@@ -1,4 +1,5 @@
-﻿using Prism.Commands;
+﻿using Day08.BL;
+using Prism.Commands;
 using Prism.Mvvm;
 using System;
 using System.Collections.Generic;
@@ -42,10 +43,16 @@ namespace Day08.ViewModels
 
         private void SecondDay8()
         {
+            var program = new Program();
+            program.Init();
+            Result2 = program.FixNopJmp().ToString();
         }
 
         private void FirstDay8()
         {
+            var program = new Program();
+            program.Init();
+            Result1 = program.RunUntilFirstRepeat().ToString();
         }
 
         public Day8ViewModel()
